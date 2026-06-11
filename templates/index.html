@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Chance Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Admission Chance Prediction</h1>
+
+    <form action="/predict" method="post">
+
+        <input type="number" name="gre" placeholder="GRE Score" required>
+
+        <input type="number" name="toefl" placeholder="TOEFL Score" required>
+
+        <input type="number" name="university" placeholder="University Rating (1-5)" required>
+
+        <input type="number" step="0.5" name="sop" placeholder="SOP Strength (1-5)" required>
+
+        <input type="number" step="0.5" name="lor" placeholder="LOR Strength (1-5)" required>
+
+        <input type="number" step="0.01" name="cgpa" placeholder="CGPA" required>
+
+        <select name="research">
+            <option value="1">Research Experience - Yes</option>
+            <option value="0">Research Experience - No</option>
+        </select>
+
+        <button type="submit">Predict Admission Chance</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

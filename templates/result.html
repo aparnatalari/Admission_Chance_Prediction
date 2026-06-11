@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Prediction Result</h1>
+
+    <h2>Admission Chance: {{ chance }}%</h2>
+
+    <h3>Profile Strength Score: {{ profile_score }}/100</h3>
+
+    <div class="progress-box">
+        <progress value="{{ chance }}" max="100"></progress>
+    </div>
+
+    <h3>{{ category }}</h3>
+
+    <h3>Recommended Universities</h3>
+
+    <ul>
+        {% for university in universities %}
+        <li>{{ university }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Improvement Suggestions</h3>
+
+    <ul>
+        {% for suggestion in suggestions %}
+        <li>{{ suggestion }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/">Predict Again</a>
+
+</div>
+
+</body>
+</html>
