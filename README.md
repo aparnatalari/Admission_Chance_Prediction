@@ -160,6 +160,20 @@ The model predicts the probability of admission based on academic and research-r
 * Database Connectivity
 * Advanced Analytics Dashboard
 * Data Visualization Charts
+## Project Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home%20page.jpeg)
+
+### Prediction Result 1
+
+![Prediction Result 1](screenshots/results%20page1.jpeg)
+
+### Prediction Result 2
+
+![Prediction Result 2](screenshots/results%20page%202.jpeg)
+
 
 ---
 
