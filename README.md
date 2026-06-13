@@ -189,6 +189,15 @@ http://127.0.0.1:5000
 ```
 
 ---
+### Run Locally
+
+1. Execute:
+
+python app.py
+
+2. Open your browser and visit:
+
+http://127.0.0.1:5000
 
 ## 📈 Sample Output
 
