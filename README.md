@@ -158,11 +158,13 @@ Admission_Chance_Prediction
 
 ## ⚙️ Installation
 
-### Clone Repository
+**#Github Repository**
 
 ```bash
-git clone https://github.com/aparnatalari/Admission_Chance_Prediction.git
+https://github.com/aparnatalari/Admission_Chance_Prediction 
 ```
+**##Render link**
+https://admission-chance-prediction.onrender.com/ 
 
 ### Move to Project Folder
 
